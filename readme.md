@@ -8,4 +8,9 @@
 - [다트게임 (난이도 : 하)](algorithm/kakao/dartGame.js)
 - [캐시문제 (난이도 : 하)](algorithm/kakao/cacheProblem.js)
 - [방금그곡 (난이도 : 하)](algorithm/kakao/nowThatsTheSong.js)
+
+
+##프로그래머스 
+###해쉬 
+- [완주하지 못한 선수 (난이도 : 하)](algorithm/programmers/hash/unCompletedPlayer.js)
 # KNOW HOW 
