@@ -7,14 +7,11 @@ function solution(participant = [], completion = []) {
     {}
   );
 
-  const unComList = participant.find(
-    (player) => {
-      console.log(this.test);
-      const count = comList[player] ? comList[player]-- : -1;
-      return count === -1 ? true : false;
-    },
-    { test: 1 }
-  );
+  const unComList = participant.find((player) => {
+    console.log(this.test);
+    const count = comList[player] ? comList[player]-- : -1;
+    return count === -1 ? true : false;
+  });
 
   return unComList;
 }
