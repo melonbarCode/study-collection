@@ -10,7 +10,11 @@
 - [방금그곡 (난이도 : 하)](algorithm/kakao/nowThatsTheSong.js)
 
 
-##프로그래머스 
-###해쉬 
+## 프로그래머스 
+### 해쉬 
 - [완주하지 못한 선수 (난이도 : 하)](algorithm/programmers/hash/unCompletedPlayer.js)
+
+### 스택&큐
+- [기능개발 (난이도: 중하)](algorithm/programmers/stackAndQueue/funcDev.js)
+
 # KNOW HOW 
