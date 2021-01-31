@@ -21,6 +21,7 @@
 - [다리를 지나는 트럭 (난이도: 중하)](algorithm/programmers/stackAndQueue/truck.js)
 - 
 ### 정렬
+
 - [k번째 수 (난이도: 하)](algorithm/programmers/sort/kNumber.js)
 
 
