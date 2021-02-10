@@ -22,6 +22,7 @@ function solution(n, arr1, arr2) {
 }
 
 //또다른 풀이
+//다시 한번 풀어보기 이해하고
 function solution2(n, arr1, arr2) {
   return arr1.map((v, i) =>
     (v | arr2[i])
