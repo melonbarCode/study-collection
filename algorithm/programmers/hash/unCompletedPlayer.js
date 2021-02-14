@@ -16,6 +16,12 @@ function solution(participant = [], completion = []) {
   return unComList;
 }
 
+
+
+
+
+
+
 var solution = (_, $) =>
   _.find(
     (_) => !$[_]--,
@@ -53,3 +59,24 @@ console.log(
     ]
   )
 );
+
+
+function solution(participant = [], completion = []) {
+
+  const obj = completion.reduce((p, c) => {
+    p[c] ? p[c]++ : p[c] = 1;
+    return p;
+  }, {})
+
+
+  return participant.find(player => {
+    if(obj[player]){
+      obj[player]--;
+      return false;
+    }else{
+      return true;
+    }
+  })
+}
+
+console.log(solution(["marina", "josipa", "nikola", "vinko", "filipa"],["josipa", "filipa", "marina", "nikola"]));
