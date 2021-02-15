@@ -31,18 +31,46 @@ function solution(genres, plays) {
 
       console.log(albumList);
 
-      for (let i = 0; i < needAlbumCount; i++) {
-        if (!albumList[i]) {
-          break;
-        }
-        p.push(albumList[i].index);
-      }
+      albumList[0] && p.push(albumList[0].index);
+      albumList[1] && p.push(albumList[1].index);
 
       return p;
     }, []);
 }
 
-console.log(solution(["A", "A", "B", "A"], [5, 5, 6, 5]));
+console.log(solution(["pop", "pop", "pop", "rap", "rap"], [45, 50, 4, 60, 70]));
 
 //   ["classic", "pop", "classic", "classic", "pop"],
 //   [500, 600, 150, 800, 2500]
+
+function solution(genres, plays) {
+  var list = genres.reduce((hash, g, i) => {
+    if (!hash[g]) {
+      hash[g] = { plays: plays[i], music: [] };
+    } else {
+      hash[g].plays += plays[i];
+    }
+    hash[g].music.push([i, plays[i]]);
+    return hash;
+  }, {});
+  var answer = [];
+  var sorted = Object.values(list).sort((l, r) => r.plays - l.plays);
+  sorted.forEach((g) => {
+    if (g.music.length > 1) {
+      g.music.sort((l, r) => {
+        if (l[1] > r[1]) {
+          return -1;
+        } else if (l[1] < r[1]) {
+          return 1;
+        } else {
+          return l[0] > r[0] ? 1 : -1;
+        }
+      });
+      answer.push(g.music[0][0]);
+      answer.push(g.music[1][0]);
+    } else {
+      answer.push(g.music[0][0]);
+    }
+  });
+  return answer;
+}
