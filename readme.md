@@ -36,4 +36,8 @@
 
 - [모의고사 (난이도: 1)](algorithm/programmers/exhaustiveSearch/semiExam.js)
 
+### 탐욕법
+- [체육복 (난이도: 1)](algorithm/programmers/greedy/gymUniform.js)
+
+
 # KNOW HOW
