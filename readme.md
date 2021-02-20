@@ -23,7 +23,7 @@
 
 - [기능개발 (난이도: 중하)](algorithm/programmers/stackAndQueue/funcDev.js)
 - [다리를 지나는 트럭 (난이도: 중하)](algorithm/programmers/stackAndQueue/truck.js)
--
+- [프린터(난이도: 2)](algorithm/programmers/stackAndQueue/printer.js)
 
 ### 정렬
 
@@ -33,11 +33,11 @@
 - [소수 찾기 (난이도 : 2)](algorithm/programmers/exhaustiveSearch/findPrimeNumber.js)
 
 ### 완전탐색
-
 - [모의고사 (난이도: 1)](algorithm/programmers/exhaustiveSearch/semiExam.js)
+- [카펫 (난이도: 2)](algorithm/programmers/exhaustiveSearch/carpet.js)
 
 ### 탐욕법
-- [체육복 (난이도: 1)](algorithm/programmers/greedy/gymUniform.js)
 
+- [체육복 (난이도: 1)](algorithm/programmers/greedy/gymUniform.js)
 
 # KNOW HOW
