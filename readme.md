@@ -33,11 +33,13 @@
 - [소수 찾기 (난이도 : 2)](algorithm/programmers/exhaustiveSearch/findPrimeNumber.js)
 
 ### 완전탐색
+
 - [모의고사 (난이도: 1)](algorithm/programmers/exhaustiveSearch/semiExam.js)
 - [카펫 (난이도: 2)](algorithm/programmers/exhaustiveSearch/carpet.js)
 
 ### 탐욕법
 
 - [체육복 (난이도: 1)](algorithm/programmers/greedy/gymUniform.js)
+- [조이스틱 (난이도: 2)](algorithm/programmers/greedy/joystick.js)
 
 # KNOW HOW
