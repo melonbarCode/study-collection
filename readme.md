@@ -25,6 +25,11 @@
 - [다리를 지나는 트럭 (난이도: 중하)](algorithm/programmers/stackAndQueue/truck.js)
 - [프린터(난이도: 2)](algorithm/programmers/stackAndQueue/printer.js)
 
+### 힙
+- [우선순위큐 (난이도: 3)](algorithm/programmers/heap/doubleQueue.js)
+
+
+
 ### 정렬
 
 - [k번째 수 (난이도: 하)](algorithm/programmers/sort/kNumber.js)
