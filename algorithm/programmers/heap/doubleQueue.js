@@ -50,10 +50,7 @@ console.log(
   ])
 );
 
-
-
 // console.log(solution(["I 7", "I 5", "I -5", "D -1"]));//
-
 
 // 전 다른 풀이
 // function solution(operations) {
