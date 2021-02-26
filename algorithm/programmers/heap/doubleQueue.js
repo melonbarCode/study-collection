@@ -1,7 +1,7 @@
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/42628
  * @param {*} operations
- *
+ * 재풀이 진행
  */
 function solution(operations) {
   const queue = [];
