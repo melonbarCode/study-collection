@@ -29,8 +29,6 @@ function solution(genres, plays) {
           }
         });
 
-      console.log(albumList);
-
       albumList[0] && p.push(albumList[0].index);
       albumList[1] && p.push(albumList[1].index);
 
