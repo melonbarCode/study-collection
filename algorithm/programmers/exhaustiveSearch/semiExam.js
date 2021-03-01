@@ -5,7 +5,6 @@ function solution(answers) {
 
   const corrects = [0, 0, 0];
   const passor = [];
-  let maxPoint = 0;
 
   const answersLength = answers.length;
 
@@ -15,14 +14,13 @@ function solution(answers) {
     answers[i] === three[i % three.length] && corrects[2]++;
   }
 
-  const max = Math.max(corrects[0], corrects[1], corrects[2])
+  const max = Math.max(corrects[0], corrects[1], corrects[2]);
 
   corrects.forEach((point, i) => {
-      if(max === point) passor.push(i+1)
-  })
+    if (max === point) passor.push(i + 1);
+  });
 
-  return passor
+  return passor;
 }
 
-
-console.log(solution([1,2,3,4,5]))
+console.log(solution([1, 2, 3, 4, 5]));
