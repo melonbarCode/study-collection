@@ -6,8 +6,7 @@ function solution(numbers, target) {
   dfs(0, 0);
 
   function dfs(idx, sum) {
-    if (idx + 1 === numbers.length) {
-      console.log(sum, target, idx, numbers.length);
+    if (idx  === numbers.length) {
       if (sum === target) answer++;
       return;
     }
