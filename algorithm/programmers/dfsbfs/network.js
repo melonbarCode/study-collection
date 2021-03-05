@@ -5,6 +5,7 @@
  */
 function solution(n, computers = [[]]) {
   let answer = 0;
+  
   const visited = [];
 
   for (let i = 0; i < n; i++) {
