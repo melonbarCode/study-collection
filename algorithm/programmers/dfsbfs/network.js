@@ -5,7 +5,7 @@
  */
 function solution(n, computers = [[]]) {
   let answer = 0;
-  
+
   const visited = [];
 
   for (let i = 0; i < n; i++) {
@@ -18,6 +18,8 @@ function solution(n, computers = [[]]) {
   function dfs(start, computers, visited) {
     visited[start] = true;
 
+
+    
     for (let i = 0; i < computers.length; i++) {
       if (!visited[i] && computers[start][i]) {
         dfs(i, computers, visited);
@@ -25,7 +27,7 @@ function solution(n, computers = [[]]) {
     }
   }
 
-  return answer
+  return answer;
 }
 
 console.log(
