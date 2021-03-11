@@ -23,4 +23,5 @@ function solution(answers) {
   return passor;
 }
 
+
 console.log(solution([1, 2, 3, 4, 5]));
