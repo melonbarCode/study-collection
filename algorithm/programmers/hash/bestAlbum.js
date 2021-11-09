@@ -13,6 +13,7 @@ function solution(genres, plays) {
     return { genre, plays: plays[i], index: i };
   });
 
+  
   return Object.entries(totalPlaysGenres)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 2)
