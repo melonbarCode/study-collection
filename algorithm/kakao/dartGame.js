@@ -23,6 +23,5 @@ function solution(dartResult) {
 console.log(solution("1T2D3D#"));
 
 
-console.log("안녕하세용")
 
 
