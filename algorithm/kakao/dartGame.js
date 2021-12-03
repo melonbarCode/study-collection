@@ -12,6 +12,7 @@ function solution(dartResult) {
       option = option === "#" ? -1 : option === "*" ? 2 : 1;
       console.log(point, powNum, option, Math.pow(point, powNum) * option);
 
+      
       if (option !== -1 && i) p[i - 1] *= option;
       p.push(Math.pow(point, powNum) * option);
       return p;
@@ -20,3 +21,8 @@ function solution(dartResult) {
 }
 
 console.log(solution("1T2D3D#"));
+
+
+console.log("안녕하세용")
+
+
