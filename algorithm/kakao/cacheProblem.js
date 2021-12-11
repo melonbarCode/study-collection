@@ -70,3 +70,5 @@ function solution(cacheSize, cities = []) {
   
   return processTime;
 }
+
+console.log("TEST")
