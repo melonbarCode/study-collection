@@ -2,6 +2,13 @@
 
 - [STYLED COMPOENT TIP](react-native/styeld-component-tip.md)
 
+# Design Pattern 
+
+- [Builder Pattern One](design-pattern/builder-one/)
+- [Builder Pattern Two](design-pattern/builder-two/)
+- [Facade Pattern](design-pattern/facade/)
+
+
 # 알고리즘
 
 ## 카카오
