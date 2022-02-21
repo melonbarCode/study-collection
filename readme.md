@@ -7,6 +7,8 @@
 - [Builder Pattern One](design-pattern/builder-one/)
 - [Builder Pattern Two](design-pattern/builder-two/)
 - [Facade Pattern](design-pattern/facade/)
+- [State Pattern](design-pattern/state/)
+- [Visitor Pattern](design-pattern/visitor/)
 
 
 # 알고리즘
