@@ -30,6 +30,17 @@ function solution(students) {
   return remainder ? quotient + 1 : quotient;
 }
 
+/** 
+ * 풀이 답안 
+ * 
+ *  function solution(n){
+        let answer;
+        answer=Math.ceil(n/12);
+        return answer;
+    }
+ * 
+ */
+
 //3
 console.log(solution(25));
 
