@@ -69,7 +69,6 @@ function solution2(textOne = "", textTwo = "") {
   for (let i = textTwo.length - 1; i < textOne.length; i++) {
     let isAnagram = true;
     oneObj[textOne[i]] ? oneObj[textOne[i]]++ : (oneObj[textOne[i]] = 1);
-    console.log(oneObj);
 
     for (let [key, value] of Object.entries(oneObj)) {
       if (twoObj[key] !== value) {
