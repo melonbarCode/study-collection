@@ -2,7 +2,7 @@
 
 - [STYLED COMPOENT TIP](react-native/styeld-component-tip.md)
 
-# Design Pattern 
+# Design Pattern
 
 - [Builder Pattern One](design-pattern/builder-one/)
 - [Builder Pattern Two](design-pattern/builder-two/)
@@ -10,12 +10,31 @@
 - [State Pattern](design-pattern/state/)
 - [Visitor Pattern](design-pattern/visitor/)
 
-
 # 알고리즘
 
+## 인프런
+
+### section1
+
+- [A를 #으로](algorithm/inflean/javascript-algorithm/section1/AToShop.js)
+- [가운데 문자 출력](algorithm/inflean/javascript-algorithm/section1/centerChar.js)
+- [대소문자 변환](algorithm/inflean/javascript-algorithm/section1/changeAlpabet.js)
+- [삼각형 판별하기](algorithm/inflean/javascript-algorithm/section1/checkTriangle.js)
+- [중복문자제거](algorithm/inflean/javascript-algorithm/section1/duplicatedTextRemoveal.js)
+- [중복단어제거](algorithm/inflean/javascript-algorithm/section1/duplicatedWordRemoveal.js)
+- [대문자 찾기](algorithm/inflean/javascript-algorithm/section1/findingPascal.js)
+- [문자 찾기](algorithm/inflean/javascript-algorithm/section1/findingText.js)
+- [가장 긴 문자열](algorithm/inflean/javascript-algorithm/section1/longestString.js)
+- [세 수 중 최솟값](algorithm/inflean/javascript-algorithm/section1/minNumberOfThree.js)
+- [최솟값 구하기](algorithm/inflean/javascript-algorithm/section1/minOneOfNumbers.js)
+- [연필 개수](algorithm/inflean/javascript-algorithm/section1/numberOfPencil.js)
+- [홀수](algorithm/inflean/javascript-algorithm/section1/odd.js)
+- [일곱 난쟁이](algorithm/inflean/javascript-algorithm/section1/sevenDwarf.js)
+- [1부터 N까지 합 출력하기](algorithm/inflean/javascript-algorithm/section1/sumfromOnetoN.js)
+- [10부제](algorithm/inflean/javascript-algorithm/section1/tenOfRule.js)
+- [대문자로 통일](algorithm/inflean/javascript-algorithm/section1/unifyToPascal.js)
+
 ## 카카오
-
-
 
 - [비밀지도 (난이도 : 하)](algorithm/kakao/secretMap.js)
 - [다트게임 (난이도 : 하)](algorithm/kakao/dartGame.js)
@@ -23,7 +42,6 @@
 - [방금그곡 (난이도 : 하)](algorithm/kakao/nowThatsTheSong.js)
 
 ## 프로그래머스
-
 
 ### 해쉬
 
