@@ -34,6 +34,10 @@
 - [10부제](algorithm/inflean/javascript-algorithm/section1/tenOfRule.js)
 - [대문자로 통일](algorithm/inflean/javascript-algorithm/section1/unifyToPascal.js)
 
+### section2
+
+- [큰 수 출력하기](algorithm/inflean/javascript-algorithm/section2/1.printBigNumber.js)
+
 ## 카카오
 
 - [비밀지도 (난이도 : 하)](algorithm/kakao/secretMap.js)
