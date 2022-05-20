@@ -71,6 +71,49 @@
 - [아나그램(해쉬)](algorithm/inflean/javascript-algorithm/section5/7.anagram.js)
 - [모든 아나그램 찾기](algorithm/inflean/javascript-algorithm/section5/8.AllOfAnagram.js)
 
+### section6
+
+- [괄호문자제거](algorithm/inflean/javascript-algorithm/section6/1.removeCurl.js)
+- [크레인 인형뽑기(카카오 기출)](algorithm/inflean/javascript-algorithm/section6/2.krain.js)
+- [올바른 괄호](algorithm/inflean/javascript-algorithm/section6/3.correctCurl.js)
+- [후위식 연산(postfix)](algorithm/inflean/javascript-algorithm/section6/4.postfix.js)
+- [쇠막대기](algorithm/inflean/javascript-algorithm/section6/5.ironBar.js)
+- [공주 구하기](algorithm/inflean/javascript-algorithm/section6/6.savePrincess.js)
+- [교육과정 설계](algorithm/inflean/javascript-algorithm/section6/7.educationProcess.js)
+
+### section7
+
+- [선택정렬](algorithm/inflean/javascript-algorithm/section7/1.selectionSort.js)
+- [버블정령](algorithm/inflean/javascript-algorithm/section7/2.bubbleSort.js)
+- [Special Sort(구글 인터뷰)](algorithm/inflean/javascript-algorithm/section7/3.specialSort.js)
+- [삽입정렬](algorithm/inflean/javascript-algorithm/section7/4.insertSort.js)
+- [Least Recently Used(카카오 캐시 문제 변형)](algorithm/inflean/javascript-algorithm/section7/5.LRU.js)
+- [장난꾸러기 현수](algorithm/inflean/javascript-algorithm/section7/6.kidHyeonsu.js)
+- [좌표 정렬](algorithm/inflean/javascript-algorithm/section7/7.pointSort.js)
+- [회의실 배정](algorithm/inflean/javascript-algorithm/section7/8.meetingRoomSelect.js)
+- [결혼식](algorithm/inflean/javascript-algorithm/section7/9.marriage.js)
+- [이분검색](algorithm/inflean/javascript-algorithm/section7/10.binaryTree.js)
+- [뮤직비디오(결정알고리즘)](algorithm/inflean/javascript-algorithm/section7/11.musicVideo.js)
+- [마구간 정하기(결정알고리즘)](algorithm/inflean/javascript-algorithm/section7/12.stable.js)
+
+### section8
+
+- [재귀함수](algorithm/inflean/javascript-algorithm/section8/1.recursiveFunction.js)
+- [재귀함수를 이용한 이진수 출력](algorithm/inflean/javascript-algorithm/section8/2.recursiveBinaryVersion.js)
+- [이진트리 순회(깊이우선탐색)](<algorithm/inflean/javascript-algorithm/section8/3.binaryTree(DFS).js>)
+- [부분집합 구하기(DFS)](algorithm/inflean/javascript-algorithm/section8/4.aggregationDFS.js)
+- [합이 같은 부분집합(DFS : 아마존 인터뷰)](algorithm/inflean/javascript-algorithm/section8/5.unionAggregation.js)
+- [바둑이 승차(DFS)](algorithm/inflean/javascript-algorithm/section8/6.badukRide.js)
+- [최대점수 구하기(DFS)](algorithm/inflean/javascript-algorithm/section8/7.maxPoint.js)
+- [중복순열 구하기](algorithm/inflean/javascript-algorithm/section8/8.duplicatedNumberOrder.js)
+- [동전교환](algorithm/inflean/javascript-algorithm/section8/9.coinExchange.js)
+- [순열 구하기](algorithm/inflean/javascript-algorithm/section8/10.getNumberOrder.js)
+- [팩토리얼](algorithm/inflean/javascript-algorithm/section8/11.factorial.js)
+- [조합의 경우수(메모이제이션)](algorithm/inflean/javascript-algorithm/section8/12.combination.js)
+- [수열 추측하기](algorithm/inflean/javascript-algorithm/section8/13.numberOrderPredict.js)
+- [조합 구하기](algorithm/inflean/javascript-algorithm/section8/14.getCombination.js)
+- [수들의 조합](algorithm/inflean/javascript-algorithm/section8/15.combinationOfNumbers.js)
+
 ## 카카오
 
 - [비밀지도 (난이도 : 하)](algorithm/kakao/secretMap.js)
