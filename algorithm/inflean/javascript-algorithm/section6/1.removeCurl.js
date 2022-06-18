@@ -55,6 +55,32 @@ function solution2(text = "") {
   return answer.join("");
 }
 
+
+function solution3(text = "") {
+  let answer = "";
+  let isCurlCount = 0;
+
+  for (let t of text) {
+    if ("(" === t) {
+      isCurlCount++;
+    } else if (")" === t) {
+      isCurlCount--;
+    } else {
+
+      if (!isCurlCount) {
+        answer += t;
+      }
+
+    }
+
+  }
+
+  return answer;
+}
+
+
+
 //YES
 console.log(solution("(A(BC)D)EF(G(H)(IJ)K)LM(N)"));
 console.log(solution2("(A(BC)D)EF(G(H)(IJ)K)LM(N)"));
+console.log(solution3("(A(BC)D)EF(G(H)(IJ)K)LM(N)"));
