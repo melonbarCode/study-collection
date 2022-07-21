@@ -3,31 +3,19 @@
 
 function solution(A) {
     // write your code in JavaScript (Node.js 8.9.4)
+    let aLength = A.length;
+    let start = 0;
+    let end = 0;
+    let max = 0;
 
-    let lidx = 0;
-    let ridx = A.length - 1;
-    let answer = 0;
+    while(end < aLength) {
+        const profit = A[end] - A[start];
 
-    if(A.length < 2){
-        return 0;
+        if (profit < 0) start = end;
+        if (max < profit) max = profit;
+
+        end++;
     }
 
-    while(lidx !== ridx){
-
-        if(A[ridx] > A[lidx]){
-            answer = Math.max(A[ridx] - A[lidx], answer)
-            ridx--;
-        }else{
-            lidx++;
-        }
-    }
-
-
-
-    if(answer < 0){
-        return 0;
-    }
-
-    return answer;
-
+    return max;
 }
